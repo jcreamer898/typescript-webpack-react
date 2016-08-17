@@ -1,0 +1,12 @@
+{
+  "name": "react-date-picker-demo",
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-date-range": "^0.2.4",
+    "react-dom": "^15.3.0",
+    "typings": "^1.3.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2"
+  }
+}
