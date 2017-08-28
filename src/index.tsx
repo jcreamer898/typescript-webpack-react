@@ -1,10 +1,18 @@
 import * as React from "react";
 import { render } from "react-dom";
+import Message from "./components/message";
 
-class MyComponent extends React.Component<{}, {}> {
+class App extends React.Component<{}, {}> {
   render() {
-    return <div>Hello World</div>;
+    return (
+      <div>
+        <Message
+          title="Oh hai"
+          message="Hello world"
+        />
+      </div>
+    );
   }
 }
- 
-render(<MyComponent />, document.getElementById("app"));
+
+render(<App />, document.getElementById("app"));
