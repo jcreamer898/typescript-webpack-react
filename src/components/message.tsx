@@ -1,16 +1,16 @@
 import * as React from "react";
 
 export interface IMessageProps {
-  title: string;
+  text: string;
   message: string;
 }
 
 export default ({
-  title,
+  text,
   message,
 }: IMessageProps) => (
   <div>
-    <h1>{title}</h1>
+    <h1>{text}</h1>
     <div>{message}</div>
   </div>
 );

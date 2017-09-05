@@ -7,8 +7,8 @@ class App extends React.Component<{}, {}> {
     return (
       <div>
         <Message
-          title="Oh hai"
-          message="Hello world"
+          message="hello"
+          text="world"
         />
       </div>
     );
