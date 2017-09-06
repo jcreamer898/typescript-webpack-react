@@ -2,7 +2,7 @@
   "name": "react-date-picker-demo",
   "scripts": {
     "build": "webpack",
-    "start": "npm run build && open index.html"
+    "start": "webpack-dev-server"
   },
   "dependencies": {},
   "devDependencies": {
@@ -12,6 +12,7 @@
     "react-dom": "^15.6.1",
     "ts-loader": "^2.3.4",
     "typescript": "^2.5.2",
-    "webpack": "^3.5.5"
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   }
 }
